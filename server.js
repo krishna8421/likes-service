@@ -36,5 +36,3 @@ process.on("SIGINT", async () => {
   await disconnectDB();
   process.exit(0);
 });
-
-console.log(process);
